@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velvet bean</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="logo.jpg">
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo">
+            <span class="site-name">Velvet Bean</span>
+        </div>
+
+        <input type="checkbox" id="toggle-menu">
+        
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <!-- <div class="fas fa-bars" id="menu-btn"></div> -->
+            <label for="toggle-menu" class="fas fa-bars" id="menu-btn"></label>
+
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Search Here">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </header>
+
+
+    <!-- Home -->
+    <section class="home animated-section" id="home">
+        <div class="content">
+            <h2>Not Just <span>Coffee</span>, It's an Experience</h2>
+            <br>
+            <br>
+            <p>Welcome to a world where every cup tells a story. At Velvet Bean, we believe coffee is more than a beverage — it's a moment of calm, energy, and connection. Whether you love a bold espresso or a smooth latte, we have something crafted just for your taste. Step into the aroma of freshly ground beans and experience coffee at its purest. Your mornings deserve more than average — they deserve exceptional. Discover your favorite blend today. Because great coffee starts here.</p>
+            <!-- <a href="" class="btn">Get Yours Now</a> -->
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section class="about" id="about">
+        <h2 class="heading"><span>About </span>Us</h2>
+        <div class="row">
+            <div class="image">
+                <img src="coffee.jpg" alt="About Us">
+            </div>
+            <div class="content">
+                <h2>The Velvet Bean Story</h2>
+                <br>
+                <p>Velvet Bean began with a simple idea — to make every cup of coffee feel like a luxury. We searched the world for the smoothest beans, partnering with ethical farms that share our love for quality. Our roasting process is slow and deliberate, designed to draw out deep flavors and silky textures. Every decision, from sourcing to packaging, reflects our dedication to craft and care. But Velvet Bean is more than a name — it's a promise. A promise of richness, comfort, and unforgettable flavor. We believe coffee should be savored, not rushed. That's why we do things differently. We don't just roast beans — we tell stories. And each cup is the beginning of yours.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Menu -->
+    <section class="menu" id="menu">
+        <h1 class="heading">Our <span>Menu</span></h1>
+        <br>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="2.png" alt="coffee">
+                <h3>Velvet Mocha Blis</h3>
+                <div class="price">$4.75</div>
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="3.png" alt="coffee">
+                <h3>Caramel Cloud Latte</h3>
+                <div class="price">$5.00</div>
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="4.png" alt="coffee">
+                <h3>Classic Bean Brew</h3>
+                <div class="price">$3.50</div>
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="5.png" alt="coffee">
+                <h3>Hazelnut Velvet Cold Brew</h3>
+                <div class="price">$5.25</div>
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="6.png" alt="coffee">
+                <h3>Spiced Vanilla Cappuccino</h3>
+                <div class="price">$4.95</div>
+                <a href="" class="btn">Add to Cart</a>
+            </div>
+
+        </div>
+    </section> 
+
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact </span>Us</h1>
+        <div class="row">
+            <form action="">
+                <h3>Get In Touch</h3> 
+                <br>
+
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name">
+                </div>
+
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="number">
+                </div>
+
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+
+                <input type="submit" value="Contact Now" class="btn">
+            </form>
+            <div class="contact-info">
+                <h2>Reach Us</h2>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Coffee Lane, Brewtown, India</p>
+                <p><i class="fas fa-phone"></i> +91-123-456-7890</p>
+                <p><i class="fas fa-envelope"></i> hello@velvetbean.com</p>
+                <p><i class="fas fa-clock"></i> Open: 9 AM - 9 PM</p>
+            </div>
+        </div>
+    </section> 
+
+
+    <!-- Blogs -->
+    <section class="blogs animated-section" id="blogs">
+        <h1 class="heading">Our <span>Blogs</span></h1>
+        <div class="container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="blog-1.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <a href="" class="title">The Velvet Brew Journal</a>
+                    <!-- <span>By Dakshita Sharma</span> -->
+                    <p>Step into our world of slow brews, rich aromas, and meaningful sips. The Velvet Brew Journal explores the craft behind every cup — from bean origins to brewing techniques — making your coffee experience richer, one story at a time.</p>
+                    <br>
+                    <a href="" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="blog-2.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <a href="" class="title">Sips & Stories</a>
+                    <!-- <span>By Dakshita Sharma</span> -->
+                    <p>Every coffee has a story, and every sip holds a memory. In this blog, we blend people, places, and the passion of coffee into heartwarming tales. Pour yourself a cup and read along — your next favorite story starts here.</p>
+                    <br>
+                    <a href="" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="blog-3.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <a href="" class="title">Bean Talk</a>
+                    <!-- <span>By Dakshita Sharma</span> -->
+                    <p>Want to geek out over coffee? Bean Talk dives into everything from roasting science to café culture. Whether you're a curious beginner or a seasoned barista, you’ll find something to spark your next conversation over coffee.</p>
+                    <br>
+                    <a href="" class="btn">Read More</a>
+                </div>
+            </div>
+
+        </div>
+    </section> 
+
+
+    <!-- Footer -->
+    <div class="share">
+        <a href="https://facebook.com" target="_blank" class="fab fa-facebook-f"></a>
+        <a href="https://instagram.com" target="_blank" class="fab fa-instagram"></a>
+        <a href="https://twitter.com" target="_blank"class="fab fa-twitter"></a>
+        <a href="https://linkedin.com" target="_blank"class="fab fa-linkedin"></a>
+        <a href="https://github.com" target="_blank"class="fab fa-github"></a>
+    </div> 
+
+    <div class="credit">Created By <span>Dakshita Sharma. </span>All rights reserved.</div>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
