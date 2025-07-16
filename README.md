@@ -1,7 +1,7 @@
 # SCT_WD_1
 Responsive Landing Page
 
-Welcome to Velvet Bean, a modern and responsive coffee-themed landing page created as part of my Web Development Internship at SkillCraft Technology.
+Welcome to **Velvet Bean**, a modern and responsive coffee-themed landing page created as part of my Web Development Internship at SkillCraft Technology.
 
 Velvet Bean is a stylish and responsive landing page. It features a clean UI, smooth navigation, and adaptive layouts for all screen sizes. It showcases HTML and CSS fundamentals applied to real-world UI design.
 
